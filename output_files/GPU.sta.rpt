@@ -1,0 +1,774 @@
+TimeQuest Timing Analyzer report for GPU
+Tue Dec  7 15:16:03 2021
+Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Fast Model Setup Summary
+ 14. Fast Model Hold Summary
+ 15. Fast Model Recovery Summary
+ 16. Fast Model Removal Summary
+ 17. Fast Model Minimum Pulse Width Summary
+ 18. Propagation Delay
+ 19. Minimum Propagation Delay
+ 20. Multicorner Timing Analysis Summary
+ 21. Progagation Delay
+ 22. Minimum Progagation Delay
+ 23. Clock Transfers
+ 24. Report TCCS
+ 25. Report RSKM
+ 26. Unconstrained Paths
+ 27. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                       ;
++--------------------+--------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version ;
+; Revision Name      ; GPU                                                                ;
+; Device Family      ; Cyclone II                                                         ;
+; Device Name        ; EP2C35F484C6                                                       ;
+; Timing Models      ; Final                                                              ;
+; Delay Model        ; Combined                                                           ;
+; Rise/Fall Delays   ; Unavailable                                                        ;
++--------------------+--------------------------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-8         ;   0.0%      ;
++----------------------------+-------------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+---------------------------
+; Slow Model Fmax Summary ;
+---------------------------
+No paths to report.
+
+
+----------------------------
+; Slow Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Slow Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++------------------------------------------------------------------+
+; Propagation Delay                                                ;
++----------------+-------------+--------+--------+--------+--------+
+; Input Port     ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++----------------+-------------+--------+--------+--------+--------+
+; Enable_decoder ; Result[0]   ; 9.775  ;        ;        ; 9.775  ;
+; Enable_decoder ; Result[1]   ; 10.198 ;        ;        ; 10.198 ;
+; Enable_decoder ; Result[2]   ; 9.466  ;        ;        ; 9.466  ;
+; Enable_decoder ; Result[3]   ; 9.917  ;        ;        ; 9.917  ;
+; Enable_decoder ; Result[4]   ; 9.049  ;        ;        ; 9.049  ;
+; Enable_decoder ; Result[5]   ; 9.463  ;        ;        ; 9.463  ;
+; Enable_decoder ; Result[6]   ; 9.698  ;        ;        ; 9.698  ;
+; Enable_decoder ; Result[7]   ; 9.891  ;        ;        ; 9.891  ;
+; Enable_decoder ; Result[8]   ; 10.514 ;        ;        ; 10.514 ;
+; Enable_decoder ; Result[9]   ; 10.380 ;        ;        ; 10.380 ;
+; Enable_decoder ; Result[10]  ; 9.914  ;        ;        ; 9.914  ;
+; Enable_decoder ; Result[11]  ; 10.082 ;        ;        ; 10.082 ;
+; Enable_decoder ; Result[12]  ; 9.849  ;        ;        ; 9.849  ;
+; Enable_decoder ; Result[13]  ; 10.106 ;        ;        ; 10.106 ;
+; Enable_decoder ; Result[14]  ; 9.812  ;        ;        ; 9.812  ;
+; Enable_decoder ; Result[15]  ; 10.088 ;        ;        ; 10.088 ;
+; Input[0]       ; Result[0]   ;        ; 9.617  ; 9.617  ;        ;
+; Input[0]       ; Result[1]   ; 10.025 ;        ;        ; 10.025 ;
+; Input[0]       ; Result[2]   ;        ; 9.308  ; 9.308  ;        ;
+; Input[0]       ; Result[3]   ; 9.744  ;        ;        ; 9.744  ;
+; Input[0]       ; Result[4]   ;        ; 8.967  ; 8.967  ;        ;
+; Input[0]       ; Result[5]   ; 9.400  ;        ;        ; 9.400  ;
+; Input[0]       ; Result[6]   ;        ; 9.540  ; 9.540  ;        ;
+; Input[0]       ; Result[7]   ; 9.718  ;        ;        ; 9.718  ;
+; Input[0]       ; Result[8]   ;        ; 10.352 ; 10.352 ;        ;
+; Input[0]       ; Result[9]   ; 10.215 ;        ;        ; 10.215 ;
+; Input[0]       ; Result[10]  ;        ; 9.752  ; 9.752  ;        ;
+; Input[0]       ; Result[11]  ; 9.917  ;        ;        ; 9.917  ;
+; Input[0]       ; Result[12]  ;        ; 9.687  ; 9.687  ;        ;
+; Input[0]       ; Result[13]  ; 9.941  ;        ;        ; 9.941  ;
+; Input[0]       ; Result[14]  ;        ; 9.650  ; 9.650  ;        ;
+; Input[0]       ; Result[15]  ; 9.923  ;        ;        ; 9.923  ;
+; Input[1]       ; Result[0]   ;        ; 9.331  ; 9.331  ;        ;
+; Input[1]       ; Result[1]   ;        ; 9.571  ; 9.571  ;        ;
+; Input[1]       ; Result[2]   ; 9.011  ;        ;        ; 9.011  ;
+; Input[1]       ; Result[3]   ; 9.305  ;        ;        ; 9.305  ;
+; Input[1]       ; Result[4]   ;        ; 10.246 ; 10.246 ;        ;
+; Input[1]       ; Result[5]   ;        ; 10.660 ; 10.660 ;        ;
+; Input[1]       ; Result[6]   ; 9.253  ;        ;        ; 9.253  ;
+; Input[1]       ; Result[7]   ; 9.272  ;        ;        ; 9.272  ;
+; Input[1]       ; Result[8]   ;        ; 9.915  ; 9.915  ;        ;
+; Input[1]       ; Result[9]   ;        ; 9.361  ; 9.361  ;        ;
+; Input[1]       ; Result[10]  ; 9.338  ;        ;        ; 9.338  ;
+; Input[1]       ; Result[11]  ; 9.092  ;        ;        ; 9.092  ;
+; Input[1]       ; Result[12]  ;        ; 9.253  ; 9.253  ;        ;
+; Input[1]       ; Result[13]  ;        ; 9.084  ; 9.084  ;        ;
+; Input[1]       ; Result[14]  ; 9.236  ;        ;        ; 9.236  ;
+; Input[1]       ; Result[15]  ; 9.102  ;        ;        ; 9.102  ;
+; Input[2]       ; Result[0]   ;        ; 9.536  ; 9.536  ;        ;
+; Input[2]       ; Result[1]   ;        ; 9.678  ; 9.678  ;        ;
+; Input[2]       ; Result[2]   ;        ; 9.229  ; 9.229  ;        ;
+; Input[2]       ; Result[3]   ;        ; 9.429  ; 9.429  ;        ;
+; Input[2]       ; Result[4]   ; 10.165 ;        ;        ; 10.165 ;
+; Input[2]       ; Result[5]   ; 10.579 ;        ;        ; 10.579 ;
+; Input[2]       ; Result[6]   ; 9.473  ;        ;        ; 9.473  ;
+; Input[2]       ; Result[7]   ; 9.399  ;        ;        ; 9.399  ;
+; Input[2]       ; Result[8]   ;        ; 10.022 ; 10.022 ;        ;
+; Input[2]       ; Result[9]   ;        ; 9.288  ; 9.288  ;        ;
+; Input[2]       ; Result[10]  ;        ; 9.464  ; 9.464  ;        ;
+; Input[2]       ; Result[11]  ;        ; 9.020  ; 9.020  ;        ;
+; Input[2]       ; Result[12]  ; 9.359  ;        ;        ; 9.359  ;
+; Input[2]       ; Result[13]  ; 9.014  ;        ;        ; 9.014  ;
+; Input[2]       ; Result[14]  ; 9.355  ;        ;        ; 9.355  ;
+; Input[2]       ; Result[15]  ; 9.021  ;        ;        ; 9.021  ;
+; Input[3]       ; Result[0]   ;        ; 10.113 ; 10.113 ;        ;
+; Input[3]       ; Result[1]   ;        ; 10.523 ; 10.523 ;        ;
+; Input[3]       ; Result[2]   ;        ; 9.804  ; 9.804  ;        ;
+; Input[3]       ; Result[3]   ;        ; 10.242 ; 10.242 ;        ;
+; Input[3]       ; Result[4]   ;        ; 9.375  ; 9.375  ;        ;
+; Input[3]       ; Result[5]   ;        ; 9.790  ; 9.790  ;        ;
+; Input[3]       ; Result[6]   ;        ; 10.036 ; 10.036 ;        ;
+; Input[3]       ; Result[7]   ;        ; 10.216 ; 10.216 ;        ;
+; Input[3]       ; Result[8]   ; 10.859 ;        ;        ; 10.859 ;
+; Input[3]       ; Result[9]   ; 10.728 ;        ;        ; 10.728 ;
+; Input[3]       ; Result[10]  ; 10.259 ;        ;        ; 10.259 ;
+; Input[3]       ; Result[11]  ; 10.430 ;        ;        ; 10.430 ;
+; Input[3]       ; Result[12]  ; 10.194 ;        ;        ; 10.194 ;
+; Input[3]       ; Result[13]  ; 10.454 ;        ;        ; 10.454 ;
+; Input[3]       ; Result[14]  ; 10.157 ;        ;        ; 10.157 ;
+; Input[3]       ; Result[15]  ; 10.436 ;        ;        ; 10.436 ;
++----------------+-------------+--------+--------+--------+--------+
+
+
++------------------------------------------------------------------+
+; Minimum Propagation Delay                                        ;
++----------------+-------------+--------+--------+--------+--------+
+; Input Port     ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++----------------+-------------+--------+--------+--------+--------+
+; Enable_decoder ; Result[0]   ; 9.775  ;        ;        ; 9.775  ;
+; Enable_decoder ; Result[1]   ; 10.198 ;        ;        ; 10.198 ;
+; Enable_decoder ; Result[2]   ; 9.466  ;        ;        ; 9.466  ;
+; Enable_decoder ; Result[3]   ; 9.917  ;        ;        ; 9.917  ;
+; Enable_decoder ; Result[4]   ; 9.049  ;        ;        ; 9.049  ;
+; Enable_decoder ; Result[5]   ; 9.463  ;        ;        ; 9.463  ;
+; Enable_decoder ; Result[6]   ; 9.698  ;        ;        ; 9.698  ;
+; Enable_decoder ; Result[7]   ; 9.891  ;        ;        ; 9.891  ;
+; Enable_decoder ; Result[8]   ; 10.514 ;        ;        ; 10.514 ;
+; Enable_decoder ; Result[9]   ; 10.380 ;        ;        ; 10.380 ;
+; Enable_decoder ; Result[10]  ; 9.914  ;        ;        ; 9.914  ;
+; Enable_decoder ; Result[11]  ; 10.082 ;        ;        ; 10.082 ;
+; Enable_decoder ; Result[12]  ; 9.849  ;        ;        ; 9.849  ;
+; Enable_decoder ; Result[13]  ; 10.106 ;        ;        ; 10.106 ;
+; Enable_decoder ; Result[14]  ; 9.812  ;        ;        ; 9.812  ;
+; Enable_decoder ; Result[15]  ; 10.088 ;        ;        ; 10.088 ;
+; Input[0]       ; Result[0]   ;        ; 9.617  ; 9.617  ;        ;
+; Input[0]       ; Result[1]   ; 10.025 ;        ;        ; 10.025 ;
+; Input[0]       ; Result[2]   ;        ; 9.308  ; 9.308  ;        ;
+; Input[0]       ; Result[3]   ; 9.744  ;        ;        ; 9.744  ;
+; Input[0]       ; Result[4]   ;        ; 8.967  ; 8.967  ;        ;
+; Input[0]       ; Result[5]   ; 9.400  ;        ;        ; 9.400  ;
+; Input[0]       ; Result[6]   ;        ; 9.540  ; 9.540  ;        ;
+; Input[0]       ; Result[7]   ; 9.718  ;        ;        ; 9.718  ;
+; Input[0]       ; Result[8]   ;        ; 10.352 ; 10.352 ;        ;
+; Input[0]       ; Result[9]   ; 10.215 ;        ;        ; 10.215 ;
+; Input[0]       ; Result[10]  ;        ; 9.752  ; 9.752  ;        ;
+; Input[0]       ; Result[11]  ; 9.917  ;        ;        ; 9.917  ;
+; Input[0]       ; Result[12]  ;        ; 9.687  ; 9.687  ;        ;
+; Input[0]       ; Result[13]  ; 9.941  ;        ;        ; 9.941  ;
+; Input[0]       ; Result[14]  ;        ; 9.650  ; 9.650  ;        ;
+; Input[0]       ; Result[15]  ; 9.923  ;        ;        ; 9.923  ;
+; Input[1]       ; Result[0]   ;        ; 9.331  ; 9.331  ;        ;
+; Input[1]       ; Result[1]   ;        ; 9.571  ; 9.571  ;        ;
+; Input[1]       ; Result[2]   ; 9.011  ;        ;        ; 9.011  ;
+; Input[1]       ; Result[3]   ; 9.305  ;        ;        ; 9.305  ;
+; Input[1]       ; Result[4]   ;        ; 10.246 ; 10.246 ;        ;
+; Input[1]       ; Result[5]   ;        ; 10.660 ; 10.660 ;        ;
+; Input[1]       ; Result[6]   ; 9.253  ;        ;        ; 9.253  ;
+; Input[1]       ; Result[7]   ; 9.272  ;        ;        ; 9.272  ;
+; Input[1]       ; Result[8]   ;        ; 9.915  ; 9.915  ;        ;
+; Input[1]       ; Result[9]   ;        ; 9.361  ; 9.361  ;        ;
+; Input[1]       ; Result[10]  ; 9.338  ;        ;        ; 9.338  ;
+; Input[1]       ; Result[11]  ; 9.092  ;        ;        ; 9.092  ;
+; Input[1]       ; Result[12]  ;        ; 9.253  ; 9.253  ;        ;
+; Input[1]       ; Result[13]  ;        ; 9.084  ; 9.084  ;        ;
+; Input[1]       ; Result[14]  ; 9.236  ;        ;        ; 9.236  ;
+; Input[1]       ; Result[15]  ; 9.102  ;        ;        ; 9.102  ;
+; Input[2]       ; Result[0]   ;        ; 9.536  ; 9.536  ;        ;
+; Input[2]       ; Result[1]   ;        ; 9.678  ; 9.678  ;        ;
+; Input[2]       ; Result[2]   ;        ; 9.229  ; 9.229  ;        ;
+; Input[2]       ; Result[3]   ;        ; 9.429  ; 9.429  ;        ;
+; Input[2]       ; Result[4]   ; 10.165 ;        ;        ; 10.165 ;
+; Input[2]       ; Result[5]   ; 10.579 ;        ;        ; 10.579 ;
+; Input[2]       ; Result[6]   ; 9.473  ;        ;        ; 9.473  ;
+; Input[2]       ; Result[7]   ; 9.399  ;        ;        ; 9.399  ;
+; Input[2]       ; Result[8]   ;        ; 10.022 ; 10.022 ;        ;
+; Input[2]       ; Result[9]   ;        ; 9.288  ; 9.288  ;        ;
+; Input[2]       ; Result[10]  ;        ; 9.464  ; 9.464  ;        ;
+; Input[2]       ; Result[11]  ;        ; 9.020  ; 9.020  ;        ;
+; Input[2]       ; Result[12]  ; 9.359  ;        ;        ; 9.359  ;
+; Input[2]       ; Result[13]  ; 9.014  ;        ;        ; 9.014  ;
+; Input[2]       ; Result[14]  ; 9.355  ;        ;        ; 9.355  ;
+; Input[2]       ; Result[15]  ; 9.021  ;        ;        ; 9.021  ;
+; Input[3]       ; Result[0]   ;        ; 10.113 ; 10.113 ;        ;
+; Input[3]       ; Result[1]   ;        ; 10.523 ; 10.523 ;        ;
+; Input[3]       ; Result[2]   ;        ; 9.804  ; 9.804  ;        ;
+; Input[3]       ; Result[3]   ;        ; 10.242 ; 10.242 ;        ;
+; Input[3]       ; Result[4]   ;        ; 9.375  ; 9.375  ;        ;
+; Input[3]       ; Result[5]   ;        ; 9.790  ; 9.790  ;        ;
+; Input[3]       ; Result[6]   ;        ; 10.036 ; 10.036 ;        ;
+; Input[3]       ; Result[7]   ;        ; 10.216 ; 10.216 ;        ;
+; Input[3]       ; Result[8]   ; 10.859 ;        ;        ; 10.859 ;
+; Input[3]       ; Result[9]   ; 10.728 ;        ;        ; 10.728 ;
+; Input[3]       ; Result[10]  ; 10.259 ;        ;        ; 10.259 ;
+; Input[3]       ; Result[11]  ; 10.430 ;        ;        ; 10.430 ;
+; Input[3]       ; Result[12]  ; 10.194 ;        ;        ; 10.194 ;
+; Input[3]       ; Result[13]  ; 10.454 ;        ;        ; 10.454 ;
+; Input[3]       ; Result[14]  ; 10.157 ;        ;        ; 10.157 ;
+; Input[3]       ; Result[15]  ; 10.436 ;        ;        ; 10.436 ;
++----------------+-------------+--------+--------+--------+--------+
+
+
+----------------------------
+; Fast Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Fast Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Fast Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++--------------------------------------------------------------+
+; Propagation Delay                                            ;
++----------------+-------------+-------+-------+-------+-------+
+; Input Port     ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++----------------+-------------+-------+-------+-------+-------+
+; Enable_decoder ; Result[0]   ; 5.477 ;       ;       ; 5.477 ;
+; Enable_decoder ; Result[1]   ; 5.645 ;       ;       ; 5.645 ;
+; Enable_decoder ; Result[2]   ; 5.283 ;       ;       ; 5.283 ;
+; Enable_decoder ; Result[3]   ; 5.488 ;       ;       ; 5.488 ;
+; Enable_decoder ; Result[4]   ; 5.071 ;       ;       ; 5.071 ;
+; Enable_decoder ; Result[5]   ; 5.328 ;       ;       ; 5.328 ;
+; Enable_decoder ; Result[6]   ; 5.374 ;       ;       ; 5.374 ;
+; Enable_decoder ; Result[7]   ; 5.465 ;       ;       ; 5.465 ;
+; Enable_decoder ; Result[8]   ; 5.745 ;       ;       ; 5.745 ;
+; Enable_decoder ; Result[9]   ; 5.675 ;       ;       ; 5.675 ;
+; Enable_decoder ; Result[10]  ; 5.505 ;       ;       ; 5.505 ;
+; Enable_decoder ; Result[11]  ; 5.546 ;       ;       ; 5.546 ;
+; Enable_decoder ; Result[12]  ; 5.430 ;       ;       ; 5.430 ;
+; Enable_decoder ; Result[13]  ; 5.537 ;       ;       ; 5.537 ;
+; Enable_decoder ; Result[14]  ; 5.424 ;       ;       ; 5.424 ;
+; Enable_decoder ; Result[15]  ; 5.543 ;       ;       ; 5.543 ;
+; Input[0]       ; Result[0]   ;       ; 5.404 ; 5.404 ;       ;
+; Input[0]       ; Result[1]   ; 5.590 ;       ;       ; 5.590 ;
+; Input[0]       ; Result[2]   ;       ; 5.210 ; 5.210 ;       ;
+; Input[0]       ; Result[3]   ; 5.433 ;       ;       ; 5.433 ;
+; Input[0]       ; Result[4]   ;       ; 5.059 ; 5.059 ;       ;
+; Input[0]       ; Result[5]   ; 5.321 ;       ;       ; 5.321 ;
+; Input[0]       ; Result[6]   ;       ; 5.301 ; 5.301 ;       ;
+; Input[0]       ; Result[7]   ; 5.410 ;       ;       ; 5.410 ;
+; Input[0]       ; Result[8]   ;       ; 5.669 ; 5.669 ;       ;
+; Input[0]       ; Result[9]   ; 5.625 ;       ;       ; 5.625 ;
+; Input[0]       ; Result[10]  ;       ; 5.429 ; 5.429 ;       ;
+; Input[0]       ; Result[11]  ; 5.496 ;       ;       ; 5.496 ;
+; Input[0]       ; Result[12]  ;       ; 5.354 ; 5.354 ;       ;
+; Input[0]       ; Result[13]  ; 5.487 ;       ;       ; 5.487 ;
+; Input[0]       ; Result[14]  ;       ; 5.348 ; 5.348 ;       ;
+; Input[0]       ; Result[15]  ; 5.493 ;       ;       ; 5.493 ;
+; Input[1]       ; Result[0]   ;       ; 5.304 ; 5.304 ;       ;
+; Input[1]       ; Result[1]   ;       ; 5.409 ; 5.409 ;       ;
+; Input[1]       ; Result[2]   ; 5.105 ;       ;       ; 5.105 ;
+; Input[1]       ; Result[3]   ; 5.242 ;       ;       ; 5.242 ;
+; Input[1]       ; Result[4]   ;       ; 5.622 ; 5.622 ;       ;
+; Input[1]       ; Result[5]   ;       ; 5.878 ; 5.878 ;       ;
+; Input[1]       ; Result[6]   ; 5.203 ;       ;       ; 5.203 ;
+; Input[1]       ; Result[7]   ; 5.216 ;       ;       ; 5.216 ;
+; Input[1]       ; Result[8]   ;       ; 5.521 ; 5.521 ;       ;
+; Input[1]       ; Result[9]   ;       ; 5.227 ; 5.227 ;       ;
+; Input[1]       ; Result[10]  ; 5.272 ;       ;       ; 5.272 ;
+; Input[1]       ; Result[11]  ; 5.096 ;       ;       ; 5.096 ;
+; Input[1]       ; Result[12]  ;       ; 5.207 ; 5.207 ;       ;
+; Input[1]       ; Result[13]  ;       ; 5.086 ; 5.086 ;       ;
+; Input[1]       ; Result[14]  ; 5.198 ;       ;       ; 5.198 ;
+; Input[1]       ; Result[15]  ; 5.103 ;       ;       ; 5.103 ;
+; Input[2]       ; Result[0]   ;       ; 5.410 ; 5.410 ;       ;
+; Input[2]       ; Result[1]   ;       ; 5.446 ; 5.446 ;       ;
+; Input[2]       ; Result[2]   ;       ; 5.222 ; 5.222 ;       ;
+; Input[2]       ; Result[3]   ;       ; 5.288 ; 5.288 ;       ;
+; Input[2]       ; Result[4]   ; 5.610 ;       ;       ; 5.610 ;
+; Input[2]       ; Result[5]   ; 5.866 ;       ;       ; 5.866 ;
+; Input[2]       ; Result[6]   ; 5.309 ;       ;       ; 5.309 ;
+; Input[2]       ; Result[7]   ; 5.291 ;       ;       ; 5.291 ;
+; Input[2]       ; Result[8]   ;       ; 5.557 ; 5.557 ;       ;
+; Input[2]       ; Result[9]   ;       ; 5.199 ; 5.199 ;       ;
+; Input[2]       ; Result[10]  ;       ; 5.321 ; 5.321 ;       ;
+; Input[2]       ; Result[11]  ;       ; 5.066 ; 5.066 ;       ;
+; Input[2]       ; Result[12]  ; 5.267 ;       ;       ; 5.267 ;
+; Input[2]       ; Result[13]  ; 5.085 ;       ;       ; 5.085 ;
+; Input[2]       ; Result[14]  ; 5.265 ;       ;       ; 5.265 ;
+; Input[2]       ; Result[15]  ; 5.091 ;       ;       ; 5.091 ;
+; Input[3]       ; Result[0]   ;       ; 5.633 ; 5.633 ;       ;
+; Input[3]       ; Result[1]   ;       ; 5.793 ; 5.793 ;       ;
+; Input[3]       ; Result[2]   ;       ; 5.439 ; 5.439 ;       ;
+; Input[3]       ; Result[3]   ;       ; 5.636 ; 5.636 ;       ;
+; Input[3]       ; Result[4]   ;       ; 5.220 ; 5.220 ;       ;
+; Input[3]       ; Result[5]   ;       ; 5.477 ; 5.477 ;       ;
+; Input[3]       ; Result[6]   ;       ; 5.530 ; 5.530 ;       ;
+; Input[3]       ; Result[7]   ;       ; 5.613 ; 5.613 ;       ;
+; Input[3]       ; Result[8]   ; 5.905 ;       ;       ; 5.905 ;
+; Input[3]       ; Result[9]   ; 5.834 ;       ;       ; 5.834 ;
+; Input[3]       ; Result[10]  ; 5.665 ;       ;       ; 5.665 ;
+; Input[3]       ; Result[11]  ; 5.705 ;       ;       ; 5.705 ;
+; Input[3]       ; Result[12]  ; 5.590 ;       ;       ; 5.590 ;
+; Input[3]       ; Result[13]  ; 5.696 ;       ;       ; 5.696 ;
+; Input[3]       ; Result[14]  ; 5.584 ;       ;       ; 5.584 ;
+; Input[3]       ; Result[15]  ; 5.702 ;       ;       ; 5.702 ;
++----------------+-------------+-------+-------+-------+-------+
+
+
++--------------------------------------------------------------+
+; Minimum Propagation Delay                                    ;
++----------------+-------------+-------+-------+-------+-------+
+; Input Port     ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++----------------+-------------+-------+-------+-------+-------+
+; Enable_decoder ; Result[0]   ; 5.477 ;       ;       ; 5.477 ;
+; Enable_decoder ; Result[1]   ; 5.645 ;       ;       ; 5.645 ;
+; Enable_decoder ; Result[2]   ; 5.283 ;       ;       ; 5.283 ;
+; Enable_decoder ; Result[3]   ; 5.488 ;       ;       ; 5.488 ;
+; Enable_decoder ; Result[4]   ; 5.071 ;       ;       ; 5.071 ;
+; Enable_decoder ; Result[5]   ; 5.328 ;       ;       ; 5.328 ;
+; Enable_decoder ; Result[6]   ; 5.374 ;       ;       ; 5.374 ;
+; Enable_decoder ; Result[7]   ; 5.465 ;       ;       ; 5.465 ;
+; Enable_decoder ; Result[8]   ; 5.745 ;       ;       ; 5.745 ;
+; Enable_decoder ; Result[9]   ; 5.675 ;       ;       ; 5.675 ;
+; Enable_decoder ; Result[10]  ; 5.505 ;       ;       ; 5.505 ;
+; Enable_decoder ; Result[11]  ; 5.546 ;       ;       ; 5.546 ;
+; Enable_decoder ; Result[12]  ; 5.430 ;       ;       ; 5.430 ;
+; Enable_decoder ; Result[13]  ; 5.537 ;       ;       ; 5.537 ;
+; Enable_decoder ; Result[14]  ; 5.424 ;       ;       ; 5.424 ;
+; Enable_decoder ; Result[15]  ; 5.543 ;       ;       ; 5.543 ;
+; Input[0]       ; Result[0]   ;       ; 5.404 ; 5.404 ;       ;
+; Input[0]       ; Result[1]   ; 5.590 ;       ;       ; 5.590 ;
+; Input[0]       ; Result[2]   ;       ; 5.210 ; 5.210 ;       ;
+; Input[0]       ; Result[3]   ; 5.433 ;       ;       ; 5.433 ;
+; Input[0]       ; Result[4]   ;       ; 5.059 ; 5.059 ;       ;
+; Input[0]       ; Result[5]   ; 5.321 ;       ;       ; 5.321 ;
+; Input[0]       ; Result[6]   ;       ; 5.301 ; 5.301 ;       ;
+; Input[0]       ; Result[7]   ; 5.410 ;       ;       ; 5.410 ;
+; Input[0]       ; Result[8]   ;       ; 5.669 ; 5.669 ;       ;
+; Input[0]       ; Result[9]   ; 5.625 ;       ;       ; 5.625 ;
+; Input[0]       ; Result[10]  ;       ; 5.429 ; 5.429 ;       ;
+; Input[0]       ; Result[11]  ; 5.496 ;       ;       ; 5.496 ;
+; Input[0]       ; Result[12]  ;       ; 5.354 ; 5.354 ;       ;
+; Input[0]       ; Result[13]  ; 5.487 ;       ;       ; 5.487 ;
+; Input[0]       ; Result[14]  ;       ; 5.348 ; 5.348 ;       ;
+; Input[0]       ; Result[15]  ; 5.493 ;       ;       ; 5.493 ;
+; Input[1]       ; Result[0]   ;       ; 5.304 ; 5.304 ;       ;
+; Input[1]       ; Result[1]   ;       ; 5.409 ; 5.409 ;       ;
+; Input[1]       ; Result[2]   ; 5.105 ;       ;       ; 5.105 ;
+; Input[1]       ; Result[3]   ; 5.242 ;       ;       ; 5.242 ;
+; Input[1]       ; Result[4]   ;       ; 5.622 ; 5.622 ;       ;
+; Input[1]       ; Result[5]   ;       ; 5.878 ; 5.878 ;       ;
+; Input[1]       ; Result[6]   ; 5.203 ;       ;       ; 5.203 ;
+; Input[1]       ; Result[7]   ; 5.216 ;       ;       ; 5.216 ;
+; Input[1]       ; Result[8]   ;       ; 5.521 ; 5.521 ;       ;
+; Input[1]       ; Result[9]   ;       ; 5.227 ; 5.227 ;       ;
+; Input[1]       ; Result[10]  ; 5.272 ;       ;       ; 5.272 ;
+; Input[1]       ; Result[11]  ; 5.096 ;       ;       ; 5.096 ;
+; Input[1]       ; Result[12]  ;       ; 5.207 ; 5.207 ;       ;
+; Input[1]       ; Result[13]  ;       ; 5.086 ; 5.086 ;       ;
+; Input[1]       ; Result[14]  ; 5.198 ;       ;       ; 5.198 ;
+; Input[1]       ; Result[15]  ; 5.103 ;       ;       ; 5.103 ;
+; Input[2]       ; Result[0]   ;       ; 5.410 ; 5.410 ;       ;
+; Input[2]       ; Result[1]   ;       ; 5.446 ; 5.446 ;       ;
+; Input[2]       ; Result[2]   ;       ; 5.222 ; 5.222 ;       ;
+; Input[2]       ; Result[3]   ;       ; 5.288 ; 5.288 ;       ;
+; Input[2]       ; Result[4]   ; 5.610 ;       ;       ; 5.610 ;
+; Input[2]       ; Result[5]   ; 5.866 ;       ;       ; 5.866 ;
+; Input[2]       ; Result[6]   ; 5.309 ;       ;       ; 5.309 ;
+; Input[2]       ; Result[7]   ; 5.291 ;       ;       ; 5.291 ;
+; Input[2]       ; Result[8]   ;       ; 5.557 ; 5.557 ;       ;
+; Input[2]       ; Result[9]   ;       ; 5.199 ; 5.199 ;       ;
+; Input[2]       ; Result[10]  ;       ; 5.321 ; 5.321 ;       ;
+; Input[2]       ; Result[11]  ;       ; 5.066 ; 5.066 ;       ;
+; Input[2]       ; Result[12]  ; 5.267 ;       ;       ; 5.267 ;
+; Input[2]       ; Result[13]  ; 5.085 ;       ;       ; 5.085 ;
+; Input[2]       ; Result[14]  ; 5.265 ;       ;       ; 5.265 ;
+; Input[2]       ; Result[15]  ; 5.091 ;       ;       ; 5.091 ;
+; Input[3]       ; Result[0]   ;       ; 5.633 ; 5.633 ;       ;
+; Input[3]       ; Result[1]   ;       ; 5.793 ; 5.793 ;       ;
+; Input[3]       ; Result[2]   ;       ; 5.439 ; 5.439 ;       ;
+; Input[3]       ; Result[3]   ;       ; 5.636 ; 5.636 ;       ;
+; Input[3]       ; Result[4]   ;       ; 5.220 ; 5.220 ;       ;
+; Input[3]       ; Result[5]   ;       ; 5.477 ; 5.477 ;       ;
+; Input[3]       ; Result[6]   ;       ; 5.530 ; 5.530 ;       ;
+; Input[3]       ; Result[7]   ;       ; 5.613 ; 5.613 ;       ;
+; Input[3]       ; Result[8]   ; 5.905 ;       ;       ; 5.905 ;
+; Input[3]       ; Result[9]   ; 5.834 ;       ;       ; 5.834 ;
+; Input[3]       ; Result[10]  ; 5.665 ;       ;       ; 5.665 ;
+; Input[3]       ; Result[11]  ; 5.705 ;       ;       ; 5.705 ;
+; Input[3]       ; Result[12]  ; 5.590 ;       ;       ; 5.590 ;
+; Input[3]       ; Result[13]  ; 5.696 ;       ;       ; 5.696 ;
+; Input[3]       ; Result[14]  ; 5.584 ;       ;       ; 5.584 ;
+; Input[3]       ; Result[15]  ; 5.702 ;       ;       ; 5.702 ;
++----------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++------------------------------------------------------------------+
+; Progagation Delay                                                ;
++----------------+-------------+--------+--------+--------+--------+
+; Input Port     ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++----------------+-------------+--------+--------+--------+--------+
+; Enable_decoder ; Result[0]   ; 9.775  ;        ;        ; 9.775  ;
+; Enable_decoder ; Result[1]   ; 10.198 ;        ;        ; 10.198 ;
+; Enable_decoder ; Result[2]   ; 9.466  ;        ;        ; 9.466  ;
+; Enable_decoder ; Result[3]   ; 9.917  ;        ;        ; 9.917  ;
+; Enable_decoder ; Result[4]   ; 9.049  ;        ;        ; 9.049  ;
+; Enable_decoder ; Result[5]   ; 9.463  ;        ;        ; 9.463  ;
+; Enable_decoder ; Result[6]   ; 9.698  ;        ;        ; 9.698  ;
+; Enable_decoder ; Result[7]   ; 9.891  ;        ;        ; 9.891  ;
+; Enable_decoder ; Result[8]   ; 10.514 ;        ;        ; 10.514 ;
+; Enable_decoder ; Result[9]   ; 10.380 ;        ;        ; 10.380 ;
+; Enable_decoder ; Result[10]  ; 9.914  ;        ;        ; 9.914  ;
+; Enable_decoder ; Result[11]  ; 10.082 ;        ;        ; 10.082 ;
+; Enable_decoder ; Result[12]  ; 9.849  ;        ;        ; 9.849  ;
+; Enable_decoder ; Result[13]  ; 10.106 ;        ;        ; 10.106 ;
+; Enable_decoder ; Result[14]  ; 9.812  ;        ;        ; 9.812  ;
+; Enable_decoder ; Result[15]  ; 10.088 ;        ;        ; 10.088 ;
+; Input[0]       ; Result[0]   ;        ; 9.617  ; 9.617  ;        ;
+; Input[0]       ; Result[1]   ; 10.025 ;        ;        ; 10.025 ;
+; Input[0]       ; Result[2]   ;        ; 9.308  ; 9.308  ;        ;
+; Input[0]       ; Result[3]   ; 9.744  ;        ;        ; 9.744  ;
+; Input[0]       ; Result[4]   ;        ; 8.967  ; 8.967  ;        ;
+; Input[0]       ; Result[5]   ; 9.400  ;        ;        ; 9.400  ;
+; Input[0]       ; Result[6]   ;        ; 9.540  ; 9.540  ;        ;
+; Input[0]       ; Result[7]   ; 9.718  ;        ;        ; 9.718  ;
+; Input[0]       ; Result[8]   ;        ; 10.352 ; 10.352 ;        ;
+; Input[0]       ; Result[9]   ; 10.215 ;        ;        ; 10.215 ;
+; Input[0]       ; Result[10]  ;        ; 9.752  ; 9.752  ;        ;
+; Input[0]       ; Result[11]  ; 9.917  ;        ;        ; 9.917  ;
+; Input[0]       ; Result[12]  ;        ; 9.687  ; 9.687  ;        ;
+; Input[0]       ; Result[13]  ; 9.941  ;        ;        ; 9.941  ;
+; Input[0]       ; Result[14]  ;        ; 9.650  ; 9.650  ;        ;
+; Input[0]       ; Result[15]  ; 9.923  ;        ;        ; 9.923  ;
+; Input[1]       ; Result[0]   ;        ; 9.331  ; 9.331  ;        ;
+; Input[1]       ; Result[1]   ;        ; 9.571  ; 9.571  ;        ;
+; Input[1]       ; Result[2]   ; 9.011  ;        ;        ; 9.011  ;
+; Input[1]       ; Result[3]   ; 9.305  ;        ;        ; 9.305  ;
+; Input[1]       ; Result[4]   ;        ; 10.246 ; 10.246 ;        ;
+; Input[1]       ; Result[5]   ;        ; 10.660 ; 10.660 ;        ;
+; Input[1]       ; Result[6]   ; 9.253  ;        ;        ; 9.253  ;
+; Input[1]       ; Result[7]   ; 9.272  ;        ;        ; 9.272  ;
+; Input[1]       ; Result[8]   ;        ; 9.915  ; 9.915  ;        ;
+; Input[1]       ; Result[9]   ;        ; 9.361  ; 9.361  ;        ;
+; Input[1]       ; Result[10]  ; 9.338  ;        ;        ; 9.338  ;
+; Input[1]       ; Result[11]  ; 9.092  ;        ;        ; 9.092  ;
+; Input[1]       ; Result[12]  ;        ; 9.253  ; 9.253  ;        ;
+; Input[1]       ; Result[13]  ;        ; 9.084  ; 9.084  ;        ;
+; Input[1]       ; Result[14]  ; 9.236  ;        ;        ; 9.236  ;
+; Input[1]       ; Result[15]  ; 9.102  ;        ;        ; 9.102  ;
+; Input[2]       ; Result[0]   ;        ; 9.536  ; 9.536  ;        ;
+; Input[2]       ; Result[1]   ;        ; 9.678  ; 9.678  ;        ;
+; Input[2]       ; Result[2]   ;        ; 9.229  ; 9.229  ;        ;
+; Input[2]       ; Result[3]   ;        ; 9.429  ; 9.429  ;        ;
+; Input[2]       ; Result[4]   ; 10.165 ;        ;        ; 10.165 ;
+; Input[2]       ; Result[5]   ; 10.579 ;        ;        ; 10.579 ;
+; Input[2]       ; Result[6]   ; 9.473  ;        ;        ; 9.473  ;
+; Input[2]       ; Result[7]   ; 9.399  ;        ;        ; 9.399  ;
+; Input[2]       ; Result[8]   ;        ; 10.022 ; 10.022 ;        ;
+; Input[2]       ; Result[9]   ;        ; 9.288  ; 9.288  ;        ;
+; Input[2]       ; Result[10]  ;        ; 9.464  ; 9.464  ;        ;
+; Input[2]       ; Result[11]  ;        ; 9.020  ; 9.020  ;        ;
+; Input[2]       ; Result[12]  ; 9.359  ;        ;        ; 9.359  ;
+; Input[2]       ; Result[13]  ; 9.014  ;        ;        ; 9.014  ;
+; Input[2]       ; Result[14]  ; 9.355  ;        ;        ; 9.355  ;
+; Input[2]       ; Result[15]  ; 9.021  ;        ;        ; 9.021  ;
+; Input[3]       ; Result[0]   ;        ; 10.113 ; 10.113 ;        ;
+; Input[3]       ; Result[1]   ;        ; 10.523 ; 10.523 ;        ;
+; Input[3]       ; Result[2]   ;        ; 9.804  ; 9.804  ;        ;
+; Input[3]       ; Result[3]   ;        ; 10.242 ; 10.242 ;        ;
+; Input[3]       ; Result[4]   ;        ; 9.375  ; 9.375  ;        ;
+; Input[3]       ; Result[5]   ;        ; 9.790  ; 9.790  ;        ;
+; Input[3]       ; Result[6]   ;        ; 10.036 ; 10.036 ;        ;
+; Input[3]       ; Result[7]   ;        ; 10.216 ; 10.216 ;        ;
+; Input[3]       ; Result[8]   ; 10.859 ;        ;        ; 10.859 ;
+; Input[3]       ; Result[9]   ; 10.728 ;        ;        ; 10.728 ;
+; Input[3]       ; Result[10]  ; 10.259 ;        ;        ; 10.259 ;
+; Input[3]       ; Result[11]  ; 10.430 ;        ;        ; 10.430 ;
+; Input[3]       ; Result[12]  ; 10.194 ;        ;        ; 10.194 ;
+; Input[3]       ; Result[13]  ; 10.454 ;        ;        ; 10.454 ;
+; Input[3]       ; Result[14]  ; 10.157 ;        ;        ; 10.157 ;
+; Input[3]       ; Result[15]  ; 10.436 ;        ;        ; 10.436 ;
++----------------+-------------+--------+--------+--------+--------+
+
+
++--------------------------------------------------------------+
+; Minimum Progagation Delay                                    ;
++----------------+-------------+-------+-------+-------+-------+
+; Input Port     ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++----------------+-------------+-------+-------+-------+-------+
+; Enable_decoder ; Result[0]   ; 5.477 ;       ;       ; 5.477 ;
+; Enable_decoder ; Result[1]   ; 5.645 ;       ;       ; 5.645 ;
+; Enable_decoder ; Result[2]   ; 5.283 ;       ;       ; 5.283 ;
+; Enable_decoder ; Result[3]   ; 5.488 ;       ;       ; 5.488 ;
+; Enable_decoder ; Result[4]   ; 5.071 ;       ;       ; 5.071 ;
+; Enable_decoder ; Result[5]   ; 5.328 ;       ;       ; 5.328 ;
+; Enable_decoder ; Result[6]   ; 5.374 ;       ;       ; 5.374 ;
+; Enable_decoder ; Result[7]   ; 5.465 ;       ;       ; 5.465 ;
+; Enable_decoder ; Result[8]   ; 5.745 ;       ;       ; 5.745 ;
+; Enable_decoder ; Result[9]   ; 5.675 ;       ;       ; 5.675 ;
+; Enable_decoder ; Result[10]  ; 5.505 ;       ;       ; 5.505 ;
+; Enable_decoder ; Result[11]  ; 5.546 ;       ;       ; 5.546 ;
+; Enable_decoder ; Result[12]  ; 5.430 ;       ;       ; 5.430 ;
+; Enable_decoder ; Result[13]  ; 5.537 ;       ;       ; 5.537 ;
+; Enable_decoder ; Result[14]  ; 5.424 ;       ;       ; 5.424 ;
+; Enable_decoder ; Result[15]  ; 5.543 ;       ;       ; 5.543 ;
+; Input[0]       ; Result[0]   ;       ; 5.404 ; 5.404 ;       ;
+; Input[0]       ; Result[1]   ; 5.590 ;       ;       ; 5.590 ;
+; Input[0]       ; Result[2]   ;       ; 5.210 ; 5.210 ;       ;
+; Input[0]       ; Result[3]   ; 5.433 ;       ;       ; 5.433 ;
+; Input[0]       ; Result[4]   ;       ; 5.059 ; 5.059 ;       ;
+; Input[0]       ; Result[5]   ; 5.321 ;       ;       ; 5.321 ;
+; Input[0]       ; Result[6]   ;       ; 5.301 ; 5.301 ;       ;
+; Input[0]       ; Result[7]   ; 5.410 ;       ;       ; 5.410 ;
+; Input[0]       ; Result[8]   ;       ; 5.669 ; 5.669 ;       ;
+; Input[0]       ; Result[9]   ; 5.625 ;       ;       ; 5.625 ;
+; Input[0]       ; Result[10]  ;       ; 5.429 ; 5.429 ;       ;
+; Input[0]       ; Result[11]  ; 5.496 ;       ;       ; 5.496 ;
+; Input[0]       ; Result[12]  ;       ; 5.354 ; 5.354 ;       ;
+; Input[0]       ; Result[13]  ; 5.487 ;       ;       ; 5.487 ;
+; Input[0]       ; Result[14]  ;       ; 5.348 ; 5.348 ;       ;
+; Input[0]       ; Result[15]  ; 5.493 ;       ;       ; 5.493 ;
+; Input[1]       ; Result[0]   ;       ; 5.304 ; 5.304 ;       ;
+; Input[1]       ; Result[1]   ;       ; 5.409 ; 5.409 ;       ;
+; Input[1]       ; Result[2]   ; 5.105 ;       ;       ; 5.105 ;
+; Input[1]       ; Result[3]   ; 5.242 ;       ;       ; 5.242 ;
+; Input[1]       ; Result[4]   ;       ; 5.622 ; 5.622 ;       ;
+; Input[1]       ; Result[5]   ;       ; 5.878 ; 5.878 ;       ;
+; Input[1]       ; Result[6]   ; 5.203 ;       ;       ; 5.203 ;
+; Input[1]       ; Result[7]   ; 5.216 ;       ;       ; 5.216 ;
+; Input[1]       ; Result[8]   ;       ; 5.521 ; 5.521 ;       ;
+; Input[1]       ; Result[9]   ;       ; 5.227 ; 5.227 ;       ;
+; Input[1]       ; Result[10]  ; 5.272 ;       ;       ; 5.272 ;
+; Input[1]       ; Result[11]  ; 5.096 ;       ;       ; 5.096 ;
+; Input[1]       ; Result[12]  ;       ; 5.207 ; 5.207 ;       ;
+; Input[1]       ; Result[13]  ;       ; 5.086 ; 5.086 ;       ;
+; Input[1]       ; Result[14]  ; 5.198 ;       ;       ; 5.198 ;
+; Input[1]       ; Result[15]  ; 5.103 ;       ;       ; 5.103 ;
+; Input[2]       ; Result[0]   ;       ; 5.410 ; 5.410 ;       ;
+; Input[2]       ; Result[1]   ;       ; 5.446 ; 5.446 ;       ;
+; Input[2]       ; Result[2]   ;       ; 5.222 ; 5.222 ;       ;
+; Input[2]       ; Result[3]   ;       ; 5.288 ; 5.288 ;       ;
+; Input[2]       ; Result[4]   ; 5.610 ;       ;       ; 5.610 ;
+; Input[2]       ; Result[5]   ; 5.866 ;       ;       ; 5.866 ;
+; Input[2]       ; Result[6]   ; 5.309 ;       ;       ; 5.309 ;
+; Input[2]       ; Result[7]   ; 5.291 ;       ;       ; 5.291 ;
+; Input[2]       ; Result[8]   ;       ; 5.557 ; 5.557 ;       ;
+; Input[2]       ; Result[9]   ;       ; 5.199 ; 5.199 ;       ;
+; Input[2]       ; Result[10]  ;       ; 5.321 ; 5.321 ;       ;
+; Input[2]       ; Result[11]  ;       ; 5.066 ; 5.066 ;       ;
+; Input[2]       ; Result[12]  ; 5.267 ;       ;       ; 5.267 ;
+; Input[2]       ; Result[13]  ; 5.085 ;       ;       ; 5.085 ;
+; Input[2]       ; Result[14]  ; 5.265 ;       ;       ; 5.265 ;
+; Input[2]       ; Result[15]  ; 5.091 ;       ;       ; 5.091 ;
+; Input[3]       ; Result[0]   ;       ; 5.633 ; 5.633 ;       ;
+; Input[3]       ; Result[1]   ;       ; 5.793 ; 5.793 ;       ;
+; Input[3]       ; Result[2]   ;       ; 5.439 ; 5.439 ;       ;
+; Input[3]       ; Result[3]   ;       ; 5.636 ; 5.636 ;       ;
+; Input[3]       ; Result[4]   ;       ; 5.220 ; 5.220 ;       ;
+; Input[3]       ; Result[5]   ;       ; 5.477 ; 5.477 ;       ;
+; Input[3]       ; Result[6]   ;       ; 5.530 ; 5.530 ;       ;
+; Input[3]       ; Result[7]   ;       ; 5.613 ; 5.613 ;       ;
+; Input[3]       ; Result[8]   ; 5.905 ;       ;       ; 5.905 ;
+; Input[3]       ; Result[9]   ; 5.834 ;       ;       ; 5.834 ;
+; Input[3]       ; Result[10]  ; 5.665 ;       ;       ; 5.665 ;
+; Input[3]       ; Result[11]  ; 5.705 ;       ;       ; 5.705 ;
+; Input[3]       ; Result[12]  ; 5.590 ;       ;       ; 5.590 ;
+; Input[3]       ; Result[13]  ; 5.696 ;       ;       ; 5.696 ;
+; Input[3]       ; Result[14]  ; 5.584 ;       ;       ; 5.584 ;
+; Input[3]       ; Result[15]  ; 5.702 ;       ;       ; 5.702 ;
++----------------+-------------+-------+-------+-------+-------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 5     ; 5    ;
+; Unconstrained Input Port Paths  ; 80    ; 80   ;
+; Unconstrained Output Ports      ; 16    ; 16   ;
+; Unconstrained Output Port Paths ; 80    ; 80   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 32-bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+    Info: Processing started: Tue Dec  7 15:16:02 2021
+Info: Command: quartus_sta GPU -c GPU
+Info: qsta_default_script.tcl version: #1
+Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'GPU.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info: Analyzing Slow Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 32-bit TimeQuest Timing Analyzer was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 319 megabytes
+    Info: Processing ended: Tue Dec  7 15:16:03 2021
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
