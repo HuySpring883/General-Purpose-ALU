@@ -1,0 +1,149 @@
+|dec4to16BDF
+Result[15] <= dec4to16:inst.y[15]
+Result[14] <= dec4to16:inst.y[14]
+Result[13] <= dec4to16:inst.y[13]
+Result[12] <= dec4to16:inst.y[12]
+Result[11] <= dec4to16:inst.y[11]
+Result[10] <= dec4to16:inst.y[10]
+Result[9] <= dec4to16:inst.y[9]
+Result[8] <= dec4to16:inst.y[8]
+Result[7] <= dec4to16:inst.y[7]
+Result[6] <= dec4to16:inst.y[6]
+Result[5] <= dec4to16:inst.y[5]
+Result[4] <= dec4to16:inst.y[4]
+Result[3] <= dec4to16:inst.y[3]
+Result[2] <= dec4to16:inst.y[2]
+Result[1] <= dec4to16:inst.y[1]
+Result[0] <= dec4to16:inst.y[0]
+Enable_decoder => dec4to16:inst.En
+Input[0] => dec4to16:inst.w[0]
+Input[1] => dec4to16:inst.w[1]
+Input[2] => dec4to16:inst.w[2]
+Input[3] => dec4to16:inst.w[3]
+
+
+|dec4to16BDF|dec4to16:inst
+w[0] => decode:G1:0:Dec_ri.w[0]
+w[0] => decode:G1:1:Dec_ri.w[0]
+w[0] => decode:G1:2:Dec_ri.w[0]
+w[0] => decode:G1:3:Dec_ri.w[0]
+w[1] => decode:G1:0:Dec_ri.w[1]
+w[1] => decode:G1:1:Dec_ri.w[1]
+w[1] => decode:G1:2:Dec_ri.w[1]
+w[1] => decode:G1:3:Dec_ri.w[1]
+w[2] => decode:G1:3:G2:Dec_left.w[0]
+w[3] => decode:G1:3:G2:Dec_left.w[1]
+En => decode:G1:3:G2:Dec_left.En
+y[15] <= decode:G1:3:Dec_ri.y[3]
+y[14] <= decode:G1:3:Dec_ri.y[2]
+y[13] <= decode:G1:3:Dec_ri.y[1]
+y[12] <= decode:G1:3:Dec_ri.y[0]
+y[11] <= decode:G1:2:Dec_ri.y[3]
+y[10] <= decode:G1:2:Dec_ri.y[2]
+y[9] <= decode:G1:2:Dec_ri.y[1]
+y[8] <= decode:G1:2:Dec_ri.y[0]
+y[7] <= decode:G1:1:Dec_ri.y[3]
+y[6] <= decode:G1:1:Dec_ri.y[2]
+y[5] <= decode:G1:1:Dec_ri.y[1]
+y[4] <= decode:G1:1:Dec_ri.y[0]
+y[3] <= decode:G1:0:Dec_ri.y[3]
+y[2] <= decode:G1:0:Dec_ri.y[2]
+y[1] <= decode:G1:0:Dec_ri.y[1]
+y[0] <= decode:G1:0:Dec_ri.y[0]
+
+
+|dec4to16BDF|dec4to16:inst|decode:\G1:0:Dec_ri
+w[0] => Mux0.IN10
+w[0] => Mux1.IN10
+w[0] => Mux2.IN10
+w[0] => Mux3.IN10
+w[1] => Mux0.IN9
+w[1] => Mux1.IN9
+w[1] => Mux2.IN9
+w[1] => Mux3.IN9
+En => Mux0.IN8
+En => Mux1.IN8
+En => Mux2.IN8
+En => Mux3.IN8
+y[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+y[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dec4to16BDF|dec4to16:inst|decode:\G1:1:Dec_ri
+w[0] => Mux0.IN10
+w[0] => Mux1.IN10
+w[0] => Mux2.IN10
+w[0] => Mux3.IN10
+w[1] => Mux0.IN9
+w[1] => Mux1.IN9
+w[1] => Mux2.IN9
+w[1] => Mux3.IN9
+En => Mux0.IN8
+En => Mux1.IN8
+En => Mux2.IN8
+En => Mux3.IN8
+y[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+y[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dec4to16BDF|dec4to16:inst|decode:\G1:2:Dec_ri
+w[0] => Mux0.IN10
+w[0] => Mux1.IN10
+w[0] => Mux2.IN10
+w[0] => Mux3.IN10
+w[1] => Mux0.IN9
+w[1] => Mux1.IN9
+w[1] => Mux2.IN9
+w[1] => Mux3.IN9
+En => Mux0.IN8
+En => Mux1.IN8
+En => Mux2.IN8
+En => Mux3.IN8
+y[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+y[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dec4to16BDF|dec4to16:inst|decode:\G1:3:Dec_ri
+w[0] => Mux0.IN10
+w[0] => Mux1.IN10
+w[0] => Mux2.IN10
+w[0] => Mux3.IN10
+w[1] => Mux0.IN9
+w[1] => Mux1.IN9
+w[1] => Mux2.IN9
+w[1] => Mux3.IN9
+En => Mux0.IN8
+En => Mux1.IN8
+En => Mux2.IN8
+En => Mux3.IN8
+y[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+y[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dec4to16BDF|dec4to16:inst|decode:\G1:3:G2:Dec_left
+w[0] => Mux0.IN10
+w[0] => Mux1.IN10
+w[0] => Mux2.IN10
+w[0] => Mux3.IN10
+w[1] => Mux0.IN9
+w[1] => Mux1.IN9
+w[1] => Mux2.IN9
+w[1] => Mux3.IN9
+En => Mux0.IN8
+En => Mux1.IN8
+En => Mux2.IN8
+En => Mux3.IN8
+y[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+y[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
